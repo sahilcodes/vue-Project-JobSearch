@@ -35,6 +35,7 @@ import { ref, onMounted } from "vue";
 const name = ref("SahilCodes");
 const status = ref("active");
 const tasks = ref(["Task One", "Task Two", "Task Three"]);
+const link = "https://github.com/sahilcodes";
 const newTask = ref("");
 
 const toggleStatus = () => {
